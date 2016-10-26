@@ -11,23 +11,23 @@
           <img src="img/index-logo.png" width="111" height="24" alt="Барбершоп «Бородинский»">
         </div>
         <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="#">Информация</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="#">Прайс-лист</a>
-          </li>
-          <li>
-            <a href="#" class="main-navigation-active">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
+          <ul class="main-navigation-ul">
+            <li class="main-navigation-ul-li">
+              <a class="main-navigation-ul-li-a" href="#">Информация</a>
+            </li>
+            <li class="main-navigation-ul-li">
+              <a class="main-navigation-ul-li-a" href="#">Новости</a>
+            </li>
+            <li class="main-navigation-ul-li">
+              <a class="main-navigation-ul-li-a" href="#">Прайс-лист</a>
+            </li>
+            <li class="main-navigation-ul-li">
+              <span class="main-navigation-ul-li-a" href="#">Магазин</span>
+            </li>
+            <li class="main-navigation-ul-li">
+              <a class="main-navigation-ul-li-a" href="#">Контакты</a>
+            </li>
+          </ul>
         </nav>
         <div class="user-block">
           <a class="login" href="#">Вход</a>
@@ -37,25 +37,29 @@
     <main class="container">
       <h1 class="item-title">Набор для путешествий «Baxter of California»</h1>
       <div class="breadcrumbs">
-        <ul>
-          <li>Главная</li>
-          <li>Магазин</li>
-          <li>Средства для ухода</li>
-          <li>Набор для путешествий «Baxter of California»</li>
+        <ul class="breadcrumbs-ul">
+          <li><a class="breadcrumbs-a">Главная</a></li>
+          <li><a class="breadcrumbs-a">Магазин</a></li>
+          <li><a class="breadcrumbs-a">Средства для ухода</a></li>
+          <li><span class="breadcrumbs-active">Набор для путешествий «Baxter of California»</span></li>
         </ul>
       </div>
       <div class="item-img">
         <img class="item-img-big" src="http://placehold.it/460x498" width="460" height="498" alt="Набор для путешествий «Baxter of California"  >
-        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of  California">
-        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of  California">
-        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of  California">
+        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of California">
+        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of California">
+        <img class="item-img-small" src="http://placehold.it/140x149" width="140" height="149" alt="Набор для путешествий «Baxter of California">
       </div>
       <div class="item-description">
-        <b class="availability">Есть в наличии</b>
-        <p>Артикул: dexter-ae</p>
+        <div class="item-details">
+          <div class="availability">Есть в наличии</div>
+          <div class="vendor-code">Артикул: dexter-ae</div>
+        </div> 
         <p>Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-        <span class="item-price">2 900 руб.</span>
-        <a class="btn btn-buy" href="#">Купить</a>
+        <div class="item-action">
+          <div class="item-price">2 900 руб.</div>
+          <a href="#" class="btn btn-buy">Купить</a>
+        </div>
         <h2 class="item-consist">В набор входят:</h2>
         <ul>
           <li>Средство для умывания (50 мл)</li>
